@@ -204,9 +204,10 @@ header .logo {
 /* episodios */
 #episodios {
   min-height: 100vh;
-  background: url(/public/img/mapa.gif) fixed center;
+  background: url(/public/img/mapa1.gif) fixed center;
   width: 100%;
   display: flex;
+
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
