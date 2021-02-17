@@ -41,6 +41,11 @@ h1 {
 h4 {
   line-height: 30px;
 }
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
 .center {
   text-align: center;
 }
@@ -137,10 +142,14 @@ header .logo {
   margin-bottom: 10px;
 }
 .iconos a {
+  opacity: 90%;
   height: 28px;
   width: 28px;
 }
 
+.iconos a:hover {
+  opacity: 100%;
+}
 .iconos a img {
   width: 32px;
 }
@@ -298,8 +307,11 @@ footer ul li a {
 }
 
 footer .follow a:hover {
-  opacity: 90%;
   color: #e2cbcb;
+}
+
+footer .share a:hover {
+  opacity: 100%;
 }
 
 .column-footer {
@@ -326,9 +338,11 @@ footer .follow a:hover {
 
 .btn-facebook {
   background-color: #4167b2;
+  opacity: 90%;
 }
 .btn-twitter {
   background-color: #55acef;
+  opacity: 90%;
 }
 
 /* MEDIA QUERIES */
