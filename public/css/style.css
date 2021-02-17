@@ -19,6 +19,18 @@ font-family: 'Brygada 1918', serif;
 font-family: 'Roboto', sans-serif;
  */
 
+#episodios {
+  min-height: 100vh;
+  background: url(/public/img/mapa1.gif) fixed center;
+  width: 100%;
+  display: flex;
+
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -165,7 +177,7 @@ header .logo {
   height: 110vh;
   position: fixed;
   top: 0;
-  z-index: -2;
+  z-index: -5;
 }
 
 .podcast-principal {
