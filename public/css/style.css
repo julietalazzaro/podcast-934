@@ -204,7 +204,15 @@ header .logo {
 /* episodios */
 #episodios {
   min-height: 100vh;
-  background: url(/img/mapa.gif) fixed center;
+  /* background: url(/img/mapa.gif) fixed center; */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(195, 182, 141, 0.4),
+      rgba(100, 83, 84, 0.4)
+    ),
+    url(/img/mapa.gif);
+  background-size: cover;
+
   width: 100%;
   display: flex;
 
@@ -239,7 +247,7 @@ header .logo {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  height: 450px;
+  min-height: 450px;
   width: 250px;
   margin: 10px;
 }
