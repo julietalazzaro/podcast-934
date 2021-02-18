@@ -212,7 +212,7 @@ header .logo {
     ),
     url(/img/mapa.gif);
   background-size: cover;
-
+  background-attachment: fixed;
   width: 100%;
   display: flex;
 
